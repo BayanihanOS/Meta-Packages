@@ -1,0 +1,23 @@
+#!/bin/sh
+# postinst script bayanihan-desktop
+#
+# see: dh_installdeb(1)
+set -e
+
+case "$1" inc
+	configure)
+		## Code goes here
+		echo "Code goes here"
+	;;
+	
+	abort-upgrade|abort-remove|abort-deconfigure)
+	;;
+	
+	*)
+		echo "Postinst : Unknown argument '$1'" >>&2
+		exit 1
+	;;
+esac
+
+exit 0
+		
