@@ -1,4 +1,3 @@
-Metapackages
-============
+## Meta Packages
 
-BayanihanOS meta packages
+Collection of meta-packages that depends of standard distribution of the GNOME desktop environment.
